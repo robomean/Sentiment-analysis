@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Sentiment Demo</title>
+<body style="background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614383683_20-p-fon-dlya-rabochego-stola-odnotonnii-svetli-21.jpg)">
+    <form action="{{ url_for('index_page') }}" method=post>
+        <dl>
+            <dt><font size="5" color="SpringGreen" face="Arial">Введите/вставьте пример отзыва:</font><br>
+             <br><dd><textarea placeholder="Введите отзыв!" name=text rows=5 cols=40>{{ text }}</textarea>
+            <dd><input type=submit value="Оценить">
+        </dl>
+    </form>
+</body>
+
+<br><font size="4" color="SpringGreen" face="Arial">Предсказание:</font><br>
+<font size="3" color="Crimson" face="Arial">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ prediction_message }} </font>
