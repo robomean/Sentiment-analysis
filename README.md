@@ -1,6 +1,6 @@
 # Sentiment-analysis
 При помощи парсинга соберем свой датасет под задачу заказчика, обучим на нем различные модели. Для демонстрации работы используем Flask. \
-*В данной версии используется   [данный датасет](https://github.com/sismetanin/rureviews), поскольку собранный парсером датасет недостаточно большой +  несбалансированность классов*\
+*This version uses [this dataset](https://github.com/sismetanin/rureviews), because the dataset collected by the parser is not large enough + unbalanced classes (UPD: problem solved in ParsingVseotzyvy.ipynb)*\
 \
 <img src="https://user-images.githubusercontent.com/99911148/156812971-484ead92-9780-4c22-88ac-0de8113d39b5.png" alt="drawing" width="400"/>\
 \
